@@ -4,7 +4,6 @@ metadata:
   name: web
   labels:
     name: web
-    # app: demo
 spec:
   selector:
     name: web 
@@ -12,4 +11,3 @@ spec:
   ports:
    - port: 5000
      targetPort: 5000
-    #  protocol: TCP

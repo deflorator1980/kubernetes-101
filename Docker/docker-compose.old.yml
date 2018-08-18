@@ -1,0 +1,11 @@
+web:
+  image: janakiramm/web
+  ports:
+   - 5000:5000
+  links:
+   - redis
+redis:
+  image: redis:latest
+  ports:
+    - 6379:6379
+  container_name: redis

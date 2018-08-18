@@ -4,12 +4,7 @@ metadata:
   name: web
   labels:
     name: web
-    app: demo
 spec:
   containers:
     - name: web
-      image: janakiramm/web
-      ports:
-        - containerPort: 5000
-          name: http
-          protocol: TCP
+      image: deflorator1980/web
